@@ -5690,6 +5690,148 @@ function RoClothes(Player)
 					[1] = "Torso",
 				},
 			}, 
+			["NewWomanTorsoShirt"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "New Woman Torso Shirt Mesh",
+				["MeshId"] = "rbxassetid://5679232242",
+				["Size"] = Vector3.new(1.4, 2.313, 0.907),
+				["CFrame"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Torso"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanTorsoShirtClothing"
+			},
+			["NewWomanTorsoPants"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "New Woman Torso Pants Mesh",
+				["MeshId"] = "rbxassetid://5679232242",
+				["Size"] = Vector3.new(1.399, 2.312, 0.906),
+				["CFrame"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Torso"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanTorsoPantsClothing"
+			},
+			["NewWomanLeftLeg"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "New Woman Left Leg Mesh",
+				["MeshId"] = "rbxassetid://14069694330",
+				["Size"] = Vector3.new(0.976, 2.394, 1.315),
+				["CFrame"] = CFrame.new(0, 0.2, -0.1, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Left Leg"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanPantsClothing"
+			},
+			["NewWomanRightLeg"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "New Woman Right Leg Mesh",
+				["MeshId"] = "rbxassetid://14069694284",
+				["Size"] = Vector3.new(0.976, 2.394, 1.315),
+				["CFrame"] = CFrame.new(0, 0.2, -0.1, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Right Leg"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanPantsClothing"
+			},
+			["NewWomanRightArm"] = {
+				["Instance"] = "Part",
+				["Name"] = "New Woman Right Arm Mesh",
+				["Size"] = Vector3.new(1, 2, 1),
+				["CFrame"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["Transparency"] = 1,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Right Arm"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanShirtClothing"
+			},
+			["NewWomanLeftArm"] = {
+				["Instance"] = "Part",
+				["Name"] = "New Woman Left Arm Mesh",
+				["Size"] = Vector3.new(1, 2, 1),
+				["CFrame"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["Transparency"] = 1,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Left Arm"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanShirtClothing"
+			},
+			["NewWomanBreastShirt"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "New Woman Breast Mesh",
+				["MeshId"] = "rbxassetid://7606070501",
+				["Size"] = Vector3.new(1.143, 1.222, 1.375),
+				["CFrame"] = CFrame.new(0.001, 0.23, -0.401, 0, 0, -1, -0.26, 1, 0, 1, 0.25, 1),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Torso"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanBreastShirtClothing"
+			},
+			["NewWomanBreastPants"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "New Woman Breast Mesh",
+				["MeshId"] = "rbxassetid://7606070501",
+				["Size"] = Vector3.new(1.143, 1.222, 1.375),
+				["CFrame"] = CFrame.new(0.001, 0.23, -0.401, 0, 0, -1, -0.26, 1, 0, 1, 0.25, 1),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Torso"
+				},
+				["ParentTransparency"] = 1,
+				["Function"] = "NewWomanBreastPantsClothing"
+			},
 		}
 	end
 
@@ -6475,10 +6617,6 @@ function RoClothes(Player)
 				"Right Nipple",
 				"Left Breast",
 				"Right Breast",
-				"Pussy Closed",
-				"Clitoris Closed",
-				"Vagina Closed",
-				"Vulva Closed",
 			}
 		},
 		["Roblox Clothes Without Breasts"] = {
@@ -6912,7 +7050,39 @@ function RoClothes(Player)
 				[2] = "BBC Tip",
 				[3] = "BBC Balls",
 			}
-		}
+		},
+		["New Woman"] = {
+			["Weld"] = {
+				[1] = "NewWomanTorsoShirt",
+				[2] = "NewWomanLeftArm",
+				[3] = "NewWomanRightArm",
+				[4] = "NewWomanRightLeg",
+				[5] = "NewWomanLeftLeg",
+				[6] = "NewWomanTorsoPants",
+				[7] = "Left Butt Shirt",
+				[8] = "Right Butt Shirt",
+			},
+		},
+		["New Woman Breast"] = {
+			["Weld"] = {
+				[1] = "NewWomanBreastShirt",
+				[2] = "NewWomanBreastPants"
+			},
+			["Unvisible"] = {
+				"Left Nipple",
+				"Right Nipple",
+				"Left Breast",
+				"Right Breast",
+			}
+		},
+		["Vagina"] = {
+			["Weld"] = {
+				[1] = "Pussy Closed",
+				[2] = "Clitoris Closed",
+				[3] = "Vulva Closed",
+				[4] = "Vagina Closed",
+			}
+		},
 	}
 
 	local PartList = Function.PartListDefault()
@@ -7247,7 +7417,7 @@ function RoClothes(Player)
 	end
 
 	function Function.TorsoShirtTexture(ObjectInstance, Character, Extra, Data)
-		if Extra.Shirt and (table.find(PlayerData[Data].CurrentClothes, "Roblox Clothes") or table.find(PlayerData[Data].CurrentClothes, "Roblox Clothes Without Breasts")) then
+		if Extra.Shirt and (table.find(PlayerData[Data].CurrentClothes, "Roblox Clothes") or table.find(PlayerData[Data].CurrentClothes, "Roblox Clothes Without Breasts") or table.find(PlayerData[Data].CurrentClothes, "New Woman")) then
 			local SP = Instance.new("SurfaceAppearance", ObjectInstance)
 			SP.ColorMap = Extra.Shirt.ShirtTemplate
 			SP.AlphaMode = Enum.AlphaMode.Transparency
@@ -7266,8 +7436,91 @@ function RoClothes(Player)
 
 	function Function.TorsoShirtGraphic(ObjectInstance, Character, Extra, Data)
 		if Extra.TShirt and (table.find(PlayerData[Data].CurrentClothes, "Roblox Clothes") or table.find(PlayerData[Data].CurrentClothes, "Roblox Clothes Without Breasts")) then
-			local Decal = Instance.new("Decal", ObjectInstance)
+			local Decal = Instance.new("SurfaceAppearance", ObjectInstance)
 			Decal.Texture = Extra.TShirt.Graphic
+		end
+	end
+	
+	function Function.NewWomanShirtClothing(ObjectInstance, Character, Extra, Data)
+		local Model = Instance.new("Model", ObjectInstance)
+		if ObjectInstance.Name == "New Woman Left Arm Mesh" then
+			local Arm = ObjectInstance:Clone()
+			Arm.Transparency = 0
+			Arm.Parent = Model
+			Arm.Name = "Left Arm"
+			local weld = Instance.new("Weld", Model)
+			weld.Part0 = ObjectInstance
+			weld.Part1 = Arm
+			local Cmesh = Instance.new("CharacterMesh", Model)
+			Cmesh.BodyPart = Enum.BodyPart.LeftArm
+			Cmesh.MeshId = 83001137
+		else
+			local Arm = ObjectInstance:Clone()
+			Arm.Transparency = 0
+			Arm.Parent = Model
+			Arm.Name = "Right Arm"
+			local weld = Instance.new("Weld", Model)
+			weld.Part0 = ObjectInstance
+			weld.Part1 = Arm
+			local Cmesh = Instance.new("CharacterMesh", Model)
+			Cmesh.BodyPart = Enum.BodyPart.RightArm
+			Cmesh.MeshId = 83001181
+		end
+		Instance.new("Humanoid", Model)
+		if Extra.Shirt and table.find(PlayerData[Data].CurrentClothes, "New Woman") then
+			Extra.Shirt:Clone().Parent = Model
+		end
+	end
+	
+	function Function.NewWomanBreastShirtClothing(ObjectInstance, Character, Extra, Data)
+		if Extra.Shirt and table.find(PlayerData[Data].CurrentClothes, "New Woman") then
+			local Decal = Instance.new("SurfaceAppearance", ObjectInstance)
+			Decal.ColorMap = Extra.Shirt.ShirtTemplate
+			Decal.AlphaMode = Enum.AlphaMode.Transparency
+			for i, v in pairs(PlayerData[Data].CurrentPartList.AreolaDecal) do
+				for i1, v1 in pairs(v:GetDescendants()) do
+					if v1.ClassName == "Decal" then
+						v1.Transparency = 1
+					end
+				end
+			end
+		end
+	end
+	function Function.NewWomanBreastPantsClothing(ObjectInstance, Character, Extra, Data)
+		if Extra.Shirt and table.find(PlayerData[Data].CurrentClothes, "New Woman") then
+			local Decal = Instance.new("SurfaceAppearance", ObjectInstance)
+			Decal.ColorMap = Extra.Shirt.ShirtTemplate
+			Decal.AlphaMode = Enum.AlphaMode.Transparency
+			for i, v in pairs(PlayerData[Data].CurrentPartList.AreolaDecal) do
+				for i1, v1 in pairs(v:GetDescendants()) do
+					if v1.ClassName == "Decal" then
+						v1.Transparency = 1
+					end
+				end
+			end
+		end
+	end
+	
+	function Function.NewWomanTorsoShirtClothing(ObjectInstance, Character, Extra, Data)
+		if Extra.Shirt and table.find(PlayerData[Data].CurrentClothes, "New Woman") then
+			local Decal = Instance.new("SurfaceAppearance", ObjectInstance)
+			Decal.ColorMap = Extra.Shirt.ShirtTemplate
+		end
+	end
+	
+	function Function.NewWomanTorsoPantsClothing(ObjectInstance, Character, Extra, Data)
+		if Extra.Pants and table.find(PlayerData[Data].CurrentClothes, "New Woman") then
+			local Decal = Instance.new("SurfaceAppearance", ObjectInstance)
+			Decal.ColorMap = Extra.Pants.PantsTemplate
+			Decal:Clone().Parent = PlayerData[Data].CurrentPartList.Organ["Right Butt"]
+			Decal:Clone().Parent = PlayerData[Data].CurrentPartList.Organ["Left Butt"]
+		end
+	end
+	
+	function Function.NewWomanPantsClothing(ObjectInstance, Character, Extra, Data)
+		if Extra.Pants and table.find(PlayerData[Data].CurrentClothes, "New Woman") then
+			local Decal = Instance.new("SurfaceAppearance", ObjectInstance)
+			Decal.ColorMap = Extra.Pants.PantsTemplate
 		end
 	end
 
@@ -8314,7 +8567,7 @@ function RoClothes(Player)
 			)
 		end
 	end
-	
+
 	function Function.BBCBallPhysics(ObjectInstance, Character, Extra, Data)
 		if PlayerData[Data].BodyPartPhysics then
 			print(PlayerData)
@@ -8457,10 +8710,6 @@ function RoClothes(Player)
 			local RIGHTARM = Function.Weld(PartListData["Right Arm"], Character, Extra, Data)
 			local LEFTBUTT = Function.Weld(PartListData["Left Butt"], Character, Extra, Data)
 			local RIGHTBUTT = Function.Weld(PartListData["Right Butt"], Character, Extra, Data)
-			local PUSSYCLOSED = Function.Weld(PartListData["Pussy Closed"], Character, Extra, Data)
-			local CLITORISCLOSED = Function.Weld(PartListData["Clitoris Closed"], Character, Extra, Data)
-			local VULVACLOSED = Function.Weld(PartListData["Vulva Closed"], Character, Extra, Data)
-			local VAGINACLOSED = Function.Weld(PartListData["Vagina Closed"], Character, Extra, Data)
 
 			local LEFTBREAST
 			local RIGHTBREAST
@@ -8472,10 +8721,6 @@ function RoClothes(Player)
 			PlayerData[Data].CurrentPartList["Organ"]["Right Arm"] = RIGHTARM
 			PlayerData[Data].CurrentPartList["Organ"]["Left Butt"] = LEFTBUTT
 			PlayerData[Data].CurrentPartList["Organ"]["Right Butt"] = RIGHTBUTT
-			PlayerData[Data].CurrentPartList["Organ"]["Pussy Closed"] = PUSSYCLOSED
-			PlayerData[Data].CurrentPartList["Organ"]["Clitoris Closed"] = CLITORISCLOSED
-			PlayerData[Data].CurrentPartList["Organ"]["Vulva Closed"] = VULVACLOSED
-			PlayerData[Data].CurrentPartList["Organ"]["Vagina Closed"] = VAGINACLOSED
 
 			if DataDetail.BreastsType == 1 then
 				LEFTBREAST = Function.Weld(PartListData["Left Breast"], Character, Extra, Data)
