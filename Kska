@@ -53,7 +53,7 @@ local RobloxShirt = false -- true/false
 local SizeLock = false -- true/false
 local R15PartTransparency = true -- true/false
 local R6PartTransparency = false -- true/false
-local Target = game.Players:FindFirstChild("Yeetqueen910")
+local Target = game.Players:FindFirstChild("")
 --
 
 
